@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ravi Bhan - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Recent Work</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Telus Connect</h1>
+							<p>One of my notable achievements is the successful launch of Telus Connect, where I led a cross-functional team in developing a feature-rich, user-friendly mobile app that acts as a companion to their hardware for Internet services. It allows users to easily set up their internet through DIY flows and gives them access to parental controls and Wi-Fi management. This project required meticulous attention to detail, effective communication, and the ability to adapt to evolving user needs.</p>
+							<ul>
+								<li>
+									In early 2019, when I commenced work on the product, my initial task involved implementing a native login feature. Upon investigating the identity platform utilized by Telus, I found that they did not provide an SDK. Consequently, to enable native login functionality rather than resorting to a web-based approach, I had to emulate the behavior of a browser to replicate the login flow seamlessly within the application. Subsequently, Google Smart Lock functionality was integrated into the system as well.
+								</li>
+							</ul>
+							<div class="row">
+								<div class="column" style="width:33%">
+								  <img src="images/login00.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/login01.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/login02.jpg" style="width:100%">
+								</div>
+							</div>
+							<div class="row">
+								<div class="column" style="width:33%">
+								  <img src="images/login03.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/login04.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/login05.jpg" style="width:100%">
+								</div>
+							</div>
+							</br>
+							  <ul>
+								<li>
+									During the COVID-19 pandemic, when technicians faced restrictions entering customers' houses for internet setup, an opportunity arose to deliver setup procedures directly through the app. These flows were expected to expand over time and evolve based on feedback and firmware updates. The objective was to seamlessly deliver these flows and incorporate changes without requiring a full app release, except in cases involving API calls within specific steps.
+								</br>
+									To facilitate this agile content delivery, the team opted for Contentful CMS. Collaboratively, we designed reusable data models to orchestrate the flows and their corresponding user interfaces (UI).</li>
+							</ul>
+							<div class="row">
+								<div class="column" style="width:33%">
+								  <img src="images/diy00.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/diy01.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/diy02.jpg" style="width:100%">
+								</div>
+							</div>
+							<div class="row">
+								<div class="column" style="width:33%">
+								  <img src="images/diy03.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/diy04.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/diy05.jpg" style="width:100%">
+								</div>
+							</div>
+						</br>
+							<ul>
+								<li>
+									Following the successful implementation of the aforementioned approach, similar methods were employed to deliver Telus Tips content, which was updated on a weekly basis. Additionally, this approach was utilized to deliver dynamic help content within the support section of the app, as well as certain other UI elements that could be managed without requiring a full app release.
+								</li>
+							</ul>
+							<div class="row">
+								<div class="column" style="width:33%">
+								  <img src="images/tips00.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/tips01.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/tips02.jpg" style="width:100%">
+								</div>
+							</div>
+							<div class="row">
+								<div class="column" style="width:33%">
+								  <img src="images/tips03.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/tips04.jpg" style="width:100%">
+								</div>
+								<div class="column" style="width:33%">
+								  <img src="images/tips05.jpg" style="width:100%">
+								</div>
+							</div>
+						</br></br>
+							<ul>
+								<li>
+									The pivotal aspect of this implementation was to design models divided into atoms and molecules, enabling their reusability as plug-and-play components.
+								</li>
+								<li>
+									The remaining components of the app involved periodically calling REST APIs at fixed intervals to display real-time status updates regarding a customer's home services. Kotlin coroutines and Retrofit were used for the purpose.
+								</li>
+								<li>
+									For certain hardware, it was necessary to discover the device via UDP and subsequently call local APIs instead of relying on cloud-based services.
+								</li>
+								<li>
+									The app also included integrations with Adobe for analytics and Firesabe for dynamic links, notifications and A/B.
+								</li>
+							</ul>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<!-- <footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer> -->
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
